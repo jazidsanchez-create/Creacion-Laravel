@@ -29,7 +29,7 @@
 4. [Instalación y flujo de comandos](#4--instalación-y-flujo-de-comandos)
 5. [Base de datos](#5--base-de-datos)
 6. [Controles utilizados](#6--controles-utilizados)
-7. [Evidencias: insertar, modificar y eliminar](#7--evidencias-insertar-modificar-y-eliminar)
+7. [Evidencias: inserción de registros](#7--evidencias-inserción-de-registros)
 8. [Dificultades y soluciones](#8--dificultades-y-soluciones)
 9. [Referencias](#9--referencias)
 10. [Fecha de ejecución](#10--fecha-de-ejecución)
@@ -315,9 +315,7 @@ cd C:\wamp64\www\Lablaravel3.1
 
 ---
 
-## 7. ✅ Evidencias: insertar, modificar y eliminar
-
-### Insertar registros
+## 7. ✅ Evidencias: inserción de registros
 
 Al registrar un usuario desde `/register`, Laravel valida los datos y los inserta en la tabla `users`.
 
@@ -325,29 +323,13 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 
 ![Validación](docs/img/07b-validacion-registro.png)
 
-**Registro insertado en la base de datos**
+**Formulario de registro completo**
+
+![Registro](docs/img/07-registro-formulario.png)
+
+**Registros insertados en la base de datos (phpMyAdmin → `lablaravel31` → `users`)**
 
 ![Tabla users](docs/img/09-tabla-users.png)
-
-### Modificar
-
-> _Completar con las capturas de la acción de modificar._
-
-![Antes de modificar](docs/img/11-modificar-antes.png)
-
-![Después de modificar](docs/img/12-modificar-despues.png)
-
-![Modificar en la BD](docs/img/13-modificar-bd.png)
-
-### Eliminar
-
-> _Completar con las capturas de la acción de eliminar._
-
-![Antes de eliminar](docs/img/14-eliminar-antes.png)
-
-![Confirmar eliminar](docs/img/15-eliminar-confirmar.png)
-
-![Eliminar en la BD](docs/img/16-eliminar-bd.png)
 
 ---
 
