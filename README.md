@@ -169,6 +169,12 @@ public function boot(): void
 }
 ```
 
+Además, en `config/database.php`, dentro de la conexión `mysql`, se fijó el motor de almacenamiento en InnoDB (el MyISAM por defecto limita los índices a 1000 bytes):
+
+```php
+'engine' => 'InnoDB',
+```
+
 ### 3.8 Ejecutar migraciones
 
 ```powershell
@@ -244,6 +250,10 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 
 > ![Registro](docs/img/07-registro-formulario.png)
 
+**Validación de campos obligatorios**
+
+![Validación](docs/img/07b-validacion-registro.png)
+
 **Usuario autenticado en el Dashboard (`/home`)**
 
 > ![Dashboard](docs/img/08-home-logueado.png)
@@ -304,6 +314,7 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 | 4 | `Table 'users' already exists` tras el error 3 | La migración falló a medias y dejó una tabla parcial | `php artisan migrate:fresh` |
 | 5 | La página de bienvenida (`/`) se ve sin estilos | Usa Tailwind y `laravel/ui` reemplaza el CSS por Bootstrap | Es esperado; `/login`, `/register` y `/home` usan Bootstrap y se ven correctamente |
 | 6 | Error al escribir `cd` dentro de la pregunta de Laravel Boost | El asistente esperaba una opción del menú, no un comando | Se aceptó la opción por defecto y se esperó a que terminara el instalador |
+| 7 | `1071 Specified key was too long` en `failed_jobs` | El motor por defecto era MyISAM (límite de 1000 bytes por índice) | `'engine' => 'InnoDB'` en la conexión `mysql` de `config/database.php` |
 
 **Evidencias de los errores**
 
@@ -312,6 +323,8 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 ![Tabla users ya existe](docs/img/18-error-users-existe.png)
 
 ![Bienvenida sin estilos](docs/img/19-bienvenida-sin-estilos.png)
+
+![Error 1071 en failed_jobs](docs/img/20-error-1071-failed-jobs.png)
 
 ---
 
