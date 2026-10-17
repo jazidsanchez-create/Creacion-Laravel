@@ -398,7 +398,7 @@ El laboratorio se realizó el **14 de octubre de 2026**.
 Este laboratorio ha sido desarrollado por el estudiante de la **Universidad Tecnológica de Panamá**:
 
 **Nombre:** Jazid Sánchez
-**Correo:** _(escribe tu correo institucional)_
+**Correo:** _(jazid.sanchez@utp.ac.pa)_
 **Curso:** Desarrollo Web
 **Instructor del Laboratorio:** Irina Fong
 
