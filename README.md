@@ -268,42 +268,6 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 
 ---
 
-## 6. Evidencia de acciones de modificar
-
-> _Completar con las capturas de la acción de modificar (por ejemplo, editar el nombre o correo de un usuario), mostrando el formulario antes, la confirmación y el cambio reflejado en la base de datos._
-
-**Antes de modificar**
-
-> ![Antes de modificar](docs/img/11-modificar-antes.png)
-
-**Después de modificar**
-
-> ![Después de modificar](docs/img/12-modificar-despues.png)
-
-**Cambio reflejado en la base de datos**
-
-> ![Modificar en BD](docs/img/13-modificar-bd.png)
-
----
-
-## 7. Evidencia de acciones de eliminar
-
-> _Completar con las capturas de la acción de eliminar (por ejemplo, eliminar un usuario), mostrando la confirmación y que el registro ya no aparece en la base de datos._
-
-**Antes de eliminar**
-
-> ![Antes de eliminar](docs/img/14-eliminar-antes.png)
-
-**Confirmación de eliminación**
-
-> ![Confirmar eliminar](docs/img/15-eliminar-confirmar.png)
-
-**Registro eliminado en la base de datos**
-
-> ![Eliminar en BD](docs/img/16-eliminar-bd.png)
-
----
-
 ## 8. Errores encontrados y soluciones
 
 | # | Error / problema | Causa | Solución |
