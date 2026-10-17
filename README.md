@@ -13,11 +13,9 @@ Asignatura: Desarrollo Web · Docente: Ing. Irina Fong · Tema: Patrón MVC
 3. [Procesos de instalación (paso a paso)](#3-procesos-de-instalación-paso-a-paso)
 4. [Controles utilizados](#4-controles-utilizados)
 5. [Insertar registros (evidencia)](#5-insertar-registros-evidencia)
-6. [Evidencia de acciones de modificar](#6-evidencia-de-acciones-de-modificar)
-7. [Evidencia de acciones de eliminar](#7-evidencia-de-acciones-de-eliminar)
-8. [Errores encontrados y soluciones](#8-errores-encontrados-y-soluciones)
-9. [Estructura MVC del proyecto](#9-estructura-mvc-del-proyecto)
-10. [Autor, fecha y referencias](#10-autor-fecha-y-referencias)
+6. [Errores encontrados y soluciones](#8-errores-encontrados-y-soluciones)
+7. [Estructura MVC del proyecto](#9-estructura-mvc-del-proyecto)
+8. [Autor, fecha y referencias](#10-autor-fecha-y-referencias)
 
 ---
 
