@@ -268,7 +268,7 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 
 ---
 
-## 8. Errores encontrados y soluciones
+## 6. Errores encontrados y soluciones
 
 | # | Error / problema | Causa | Solución |
 |---|---|---|---|
@@ -292,7 +292,7 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 
 ---
 
-## 9. Estructura MVC del proyecto
+## 7. Estructura MVC del proyecto
 
 | Capa | Ubicación | Función en este laboratorio |
 |---|---|---|
@@ -305,11 +305,11 @@ Al registrar un usuario desde `/register`, Laravel valida los datos y los insert
 
 ---
 
-## 10. Autor, fecha y referencias
+## 8. Autor, fecha y referencias
 
 - **Autor:** Jazid Sánchez
 - **Docente:** Ing. Irina Fong
-- **Fecha:** _(completar con la fecha de entrega)_ de octubre de 2026
+- **Fecha:** 17 de octubre de 2026
 - **Institución:** Universidad Tecnológica de Panamá, Facultad de Ingeniería en Sistemas Computacionales
 
 **Referencias**
